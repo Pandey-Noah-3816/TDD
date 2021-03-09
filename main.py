@@ -8,6 +8,8 @@ class TestCase(unittest.TestCase):
     self.assertEqual (fizzbuzz(3),'fizz')
   def test_case_3(self):
     self.assertEqual (fizzbuzz(5),'buzz')
+  def test_case_4(self):
+    self.assertEqual (fizzbuzz(15),'fizzbuzz')
 
 
 
