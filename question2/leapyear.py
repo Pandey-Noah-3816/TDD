@@ -1,6 +1,11 @@
 
 def leapyear(x):
+  leap = False
   if x % 4 == 0:
-    return(True)
+    leap = True
+    if x % 100 == 0:
+      leap = False
+    return (leap)
+
   else:
-    return(False)
+    return(leap)
