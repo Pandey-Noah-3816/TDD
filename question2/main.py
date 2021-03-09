@@ -8,6 +8,8 @@ class TestCase(unittest.TestCase):
     self.assertEqual (leapyear(2024),True)
   def test_case_3(self):
     self.assertEqual (leapyear(1900),False)
+  def test_case_4(self):
+    self.assertEqual (leapyear(2000),True)
 
 
 
